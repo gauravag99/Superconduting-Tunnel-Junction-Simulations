@@ -1,0 +1,92 @@
+
+
+*******************************************************************************
+Sat Mar 26 16:45:42 2022
+
+
+FIT:    data read from 'gooddata/rtheat.txt' u 1:4
+        format = x:z
+        x range restricted to [4.20187 : 20.2019]
+        #datapoints = 2812
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*sqrt(1-x/b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.3090327565e+03   0.00e+00  0.00e+00    1.000000e+00   1.000000e+00
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Sat Mar 26 16:46:55 2022
+
+
+FIT:    data read from 'gooddata/rtheat.txt' u 1:4
+        format = x:z
+        x range restricted to [4.20187 : 20.2019]
+        #datapoints = 2812
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*(1-(x/b)**2)**0.5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.3090327565e+03   0.00e+00  7.68e-16    1.000000e+00   1.001000e+00
+   1 5.3090327565e+03  -5.14e-11  7.68e-08    4.612182e+00  -2.651782e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 5309.03
+rel. change during last iteration : -5.13932e-16
+
+degrees of freedom    (FIT_NDF)                        : 2810
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.37453
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.88934
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 4.61218          +/- 1.938e+15    (4.203e+16%)
+b               = -2.65178         +/- 1.065e+15    (4.015e+16%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.999  1.000 
+
+
+*******************************************************************************
+Sat Mar 26 16:47:18 2022
+
+
+FIT:    data read from 'gooddata/rtheat.txt' u 1:4
+        format = x:z
+        x range restricted to [4.20187 : 20.2019]
+        #datapoints = 2812
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*(1-(x/15)**2)**0.5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 7.4924012873e+03   0.00e+00  2.01e+00    4.612182e+00  -2.651782e+00
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sat Mar 26 16:47:49 2022
+
+
+FIT:    data read from 'gooddata/rtheat.txt' u 1:4
+        format = x:z
+        x range restricted to [4.20187 : 20.2019]
+        #datapoints = 2812
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*(1-(x/15)**2)**0.5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 6.4091698853e+02   0.00e+00  9.11e-01    2.085550e+00  -2.654434e+00
+BREAK: Singular matrix in Invert_RtR
